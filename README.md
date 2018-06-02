@@ -29,7 +29,8 @@ jQuery (at the moment)
 tipsy.js will expand above example to:
 
 ```html
-	<p>lorem ipsum <a href="#tip-0" class="tip"><div aria-describedby="tip-0">dolor</div><div role="tooltip" id="tip-0">This is the tip.</div></a> sit amet</p>
+	<p>lorem ipsum <a href="#tip-0" class="tip"><div aria-describedby="tip-0">dolor</div>
+		<div role="tooltip" id="tip-0">This is the tip.</div></a> sit amet</p>
 ```
 
 For more complicated tooltips (i.e., those that have markup), you can use the expanded form directly.
@@ -50,7 +51,8 @@ For more complicated tooltips (i.e., those that have markup), you can use the ex
 		<p>Concise: Lorem ipsum <a data-tip="This is the tip.">dolor</a> sit amet</p>
 		
 		<!-- Expanded form -->
-		<p>Expanded: Ut enim ad <a href="#tip-1" class="tip"><div aria-describedby="tip-1">minim</div><div role="tooltip" id="tip-1">This is the tip.</div></a> veniamolor</p>
+		<p>Expanded: Ut enim ad <a href="#tip-1" class="tip"><div aria-describedby="tip-1">minim</div>
+			<div role="tooltip" id="tip-1">This is the tip.</div></a> veniamolor</p>
 	</body>
 </html>
 ```

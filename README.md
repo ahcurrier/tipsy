@@ -11,7 +11,8 @@ http://aninnovativeweb.tumblr.com/post/820491172/semantic-tooltips-with-pure-css
 
 ## Usage
 
-`<!doctype html>
+```html
+<!doctype html>
 	<html>
 		<head>
 			<link rel="stylesheet" type="text/css" href="tipsy.css">
@@ -21,4 +22,5 @@ http://aninnovativeweb.tumblr.com/post/820491172/semantic-tooltips-with-pure-css
 	<body>
 		<p>lorem ipsum <a data-tip="This is the tip.">dolor</a> sit amet.</p>
 	</body>
-</html>`
+</html>
+```

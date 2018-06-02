@@ -40,12 +40,12 @@ For more complicated tooltips (i.e., those that have markup), you can use the ex
 
 ```html
 <!doctype html>
-	<html>
-		<head>
-			<link rel="stylesheet" type="text/css" href="tipsy.css">
-			<script type="text/javascript" src="your-jquery/jquery.min.js"></script>
-			<script type="text/javascript" src="tipsy.js"></script>	
-		</head>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="tipsy.css">
+		<script type="text/javascript" src="your-jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="tipsy.js"></script>	
+	</head>
 	<body>
 		<!-- Concise form -->
 		<p>Concise: Lorem ipsum <a data-tip="This is the tip.">dolor</a> sit amet</p>
